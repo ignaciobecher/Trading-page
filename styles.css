@@ -86,6 +86,7 @@ li a:hover{
 .container .inversion-vid h2{
     text-align: center;
     font-size: 40px;
+    font-weight: 900;
 }
 
 .container .inversion-vid iframe{
@@ -108,6 +109,14 @@ li a:hover{
 
 /*--------------------------Cursos-----------*/
 
+.container .courses h2{
+    font-weight: 900;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
 .container .cursos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -121,4 +130,62 @@ li a:hover{
     width: 400px;
     height: 250px;
     border-radius: 5px;
+    padding: 10px;
+}
+
+.container .cursos .p-parent{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.container .cursos  .p-inner {
+    text-align:justify;
+    
+}
+
+.container .cursos a{
+    text-decoration: none;
+    font-weight: 900;
+}
+
+/* ------------------footer------------------- */
+.container .footer{
+    display: block;
+    margin-top: 50px;
+    
+}
+
+.container .footer li{
+    list-style: none;
+}
+
+.container .footer .links{
+   float: left;
+   font-weight: bold;
+}
+
+.container .footer .redes{
+   
+    align-items: center;
+    width: 300px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.container .footer .direccion{
+    display: flexbox;
+    float: right;
+    margin-top: -115px;
+    font-weight:bolder;
+    font-size: 16px;
+}
+
+.container .footer p{
+   text-align: center;
+   margin-top: 50px;
+}
+
+.container .footer a{
+    text-decoration: none;
+    color: black;
 }
